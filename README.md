@@ -1,1 +1,15 @@
-# SEM3_T2207E_DMAWS_Test
+Problem: A retail company with a chain of stores across the United States needs to build an online ordering and shopping website to increase revenue and profits. Based on historical sales data and analysis by economic experts at the company, the company has produced a relationship chart of shopping demand at stores by month of the year (In November has an important event is Black Friday). Below is the chart
+
+Based on the chart above, analyze the problem from the perspective of a software developer, choosing technology to meet user needs that increase or decrease over time while saving construction costs to build, operating and maintain systems for businesses. Give at least 3 reasons for your choice
+the problem:
+while other month from January to October have low value around 3, November and December jump high to 12 and 6. This mark the problem for server getting jammed  Command to overload , because customer will start spam order just to buy discount product   they want . Server will fill up with command and got jammed , its start slow down the website until it died right when  customer need to buy for Christmas in December.
+choosing technology:
+Server: using cloud service   azure service, since cloud server hardly got overload. This allows you to dynamically scale up server resources on demand, ensuring that the system can handle the increased volume of transactions without problems.
+You can using autoscaling to cost down server when user got low usage like in January 
+Establish a reliable disaster recovery plan. This includes creating backup copies of systems and data and regularly testing to ensure the effectiveness of the recovery plan. In addition, there is a need for a performance monitoring system to detect problems early and take timely interventions.
+Platform,Programming Language, technology: visual studio,  C# and .asp net core
+
+With the addition of core libraries, tools optimization � developers can write efficient & maintainable codes with high performance. Moreover, easier upgrades, faster release cycles, new concepts related to space & memory allocation make this open-source framework more reliable for IoT, mobile applications & clouds. Microsoft�s modular framework is not just for developers, it made sure that the industry also gets a robust and economical solution through its applications. In my opinion, with the introduction of the Kestrel web server, ASP.NET Core is now one of the fastest web frameworks available in the market.
+.NET framework is designed to run on only Windows but tools & applications developed using .NET Core can run on Linux, Windows, and macOS. In fact, you can build and deploy an ASP.NET Core app to Microsoft Azure with Visual Studio.
+Independent packaging, installation (not dependent on any OS) along with compatibility with multiple platforms makes .NET Core a great framework for developing any application. Once you develop an app, the .NET Core provides the functionality to reuse that same code irrespective of the platform or the OS.
+ASP.NET Core allows developers to utilize new technologies such as Kubernetes, Docker. In fact, if a developer wants to deploy his application to containers, Microsoft Azure, the cloud service, will support that too!
